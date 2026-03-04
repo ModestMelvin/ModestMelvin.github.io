@@ -16,6 +16,9 @@ const scenery = {
     loopWidth: 1400,
     instances: [{ x: 400, width: 100, height: 300, speedX: -2 }],
   },
+  building: {
+    imageUrl: 
+  }
   lamp: {
     imageUrl: "images/backgrounds/lamp.png",
     loopWidth: 1400,
