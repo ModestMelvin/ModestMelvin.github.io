@@ -51,11 +51,8 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
-    // TODO 1 - Enable the Grid
-    toggleGrid();
-
     // TODO 2 - Create Platforms
-//Level 1//
+    //Level 1//
     // Horizontal barrier at y=500: left half blocks permanently, right half (x >= 600) opens after first collectable.
     createBarrierSegment(0, 500, 600, 20, "blue", "bar500up", false); // left side (stays closed)
     createBarrierSegment(
@@ -85,7 +82,6 @@ $(function () {
       "blue",
       "bar1000right",
       false,
-    
     ); // right side (opens after 2nd collectable)
 
     createPlatform(570, 570, 50, 20);
@@ -107,7 +103,7 @@ $(function () {
     createCollectable("database", 800, 25, 0, 0);
     //Level 3//
     createCollectable("database", 1350, 1, 0, 0);
-    createCollectable("database", 400, 600 , 0, 0);
+    createCollectable("database", 400, 600, 0, 0);
     // TODO 4 - Create Cannons
     //Level 1//
     // Use the correct function name and lowercase side. Lowered delay so cannon fires visibly.

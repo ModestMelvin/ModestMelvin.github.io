@@ -35,6 +35,8 @@ var init = function (window) {
       view.addChild(circle);
       circles.push(circle);
     }
+    // TODO 3 : Call the drawCircle() function
+
     // Initialize gamification features (unlocked after completing educational TODOs)
     Gamification.init({
       canvas: canvas,
@@ -44,7 +46,6 @@ var init = function (window) {
       circles: circles,
       game: game,
     });
-    // TODO 3 : Call the drawCircle() function
 
     // TODO 7 : Use a loop to create multiple circles
     for (var i = 0; i < 51; i++) {
